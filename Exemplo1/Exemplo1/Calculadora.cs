@@ -10,7 +10,10 @@ namespace Exemplo1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("ola mundo");
+            Console.ReadKey();
         }
+       
 
         public int Soma (int a, int b)
         {
