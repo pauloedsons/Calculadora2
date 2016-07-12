@@ -9,7 +9,24 @@ namespace Exercicio1_apostilaCsharp
     class Program
     {
         static void Main(string[] args)
+
         {
+            int idade = 16; bool brasileiro = true;
+            if ((idade >=16) && (brasileiro == true))
+            {
+                Console.WriteLine("pode votar");
+            }
+            else
+            {
+                Console.WriteLine("não pode votar");
+            }
+
+            
+
+            Console.ReadKey();
+
+
+
         }
     }
 }
